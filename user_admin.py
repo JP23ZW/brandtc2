@@ -64,6 +64,15 @@ def bootstrap_admin(password):
 
 def bootstrap_from_environment():
     secret = os.environ.get('BRANDVEILIGHEID_BOOTSTRAP_PASSWORD')
+    if not secret:
+        # Community Cloud loads st.secrets lazily. Reading only os.environ
+        # can therefore miss a configured installation secret on startup.
+        import streamlit as st
+        from streamlit.errors import StreamlitSecretNotFoundError
+        try:
+            secret = st.secrets.get('BRANDVEILIGHEID_BOOTSTRAP_PASSWORD')
+        except StreamlitSecretNotFoundError:
+            secret = None
     if secret:
         bootstrap_admin(secret)
 

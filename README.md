@@ -52,6 +52,18 @@ Gebruik dezelfde persistente database bij upgrades; dan blijven het account, het
 
 De opdracht vraagt het startwachtwoord zonder het te tonen of naar een bestand te schrijven. Alternatief voor een beheerde server: stel `BRANDVEILIGHEID_BOOTSTRAP_PASSWORD` via de secretmanager van de hosting in. Minimaal 12 tekens. De accountnaam en het e-mailadres blijven zoals hierboven. Bij herstart wordt een bestaand ingericht account nooit opnieuw ingesteld. Verwijder het installatie-secret nadat de provisioning is voltooid. Het startwachtwoord moet bij de eerste login worden gewijzigd.
 
+### Hoofdbeheerder op Streamlit Community Cloud
+
+De online app gebruikt niet de database op je pc. Deploy de actuele code inclusief `access_control.py`, `user_admin.py` en `admin_ui.py`. Voeg in de appinstellingen onder Secrets een top-level TOML-instelling toe:
+
+```toml
+BRANDVEILIGHEID_BOOTSTRAP_PASSWORD = "VUL_HIER_EEN_NIEUW_STARTWACHTWOORD_IN"
+```
+
+Gebruik een eigen sterk wachtwoord van minimaal 12 tekens, niet de voorbeeldwaarde. Sla op en herstart de online app. Log in met `jprikken@triacon.nl` en dit startwachtwoord; wijzig het vervolgens in de app. De code leest zowel de omgevingsvariabele als Streamlit Secrets expliciet uit. Verwijder daarna het installatie-secret. Plaats het secret nooit in GitHub. Een al ingerichte hoofdbeheerder wordt hiermee niet gereset; daarvoor is toegang tot de betreffende serverdatabase nodig. Een lokale wachtwoordcontrole bewijst niet dat het online account bestaat of hetzelfde wachtwoord gebruikt.
+
+Let op: deze instelling maakt opslag niet persistent. Gebruik voor productie duurzame database- en bestandsopslag; vertrouw niet op het lokale bestandssysteem van een tijdelijke cloudinstantie.
+
 ## Voor publicatie
 
 Deze wijziging voegt applicatierechten toe; er is nog geen publieke hosting ingericht en dit is geen volledige beveiligingsaudit.
