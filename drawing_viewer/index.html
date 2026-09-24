@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root{color-scheme:light;--ink:#282363;--muted:#686780;--line:#e3e3ee;--accent:#f39a19;--viewer-height:420px}
+  *{box-sizing:border-box}
+  body{margin:0;color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+  .viewer{padding:14px;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 5px 20px #28236308}
+  .toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+  .title{display:flex;align-items:center;flex-wrap:wrap;gap:9px;font-weight:650}
+  .title::before{content:"";width:9px;height:9px;border-radius:50%;background:#f22552;box-shadow:0 0 0 4px #fff0f4;margin:0 4px}
+  #count{padding:3px 9px;border-radius:20px;background:#f1f0f8;font-size:12px;font-weight:500;color:var(--muted)}
+  .controls{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+  button{min-height:48px;min-width:48px;padding:0 15px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);cursor:pointer;font-family:inherit;font-size:14px;font-weight:600;-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:background .15s,border-color .15s}
+  .zoom-button{padding:0;font-size:24px;font-weight:400;line-height:1}
+  #fit{background:#f5f4fb}
+  button:active:not(:disabled){background:#e8e6f5}
+  button:focus-visible,#viewport:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  button:disabled{color:#aaa9ba;background:#f7f7fa;cursor:default;opacity:.75}
+  #zoom{min-width:48px;text-align:center;font-size:13px;font-weight:600;font-variant-numeric:tabular-nums;color:var(--muted)}
+  #viewport{overflow:auto;height:var(--viewer-height);border:1px solid var(--line);border-radius:12px;background-color:#f3f3f8;background-image:radial-gradient(#d9d8e8 .8px,transparent .8px);background-size:14px 14px;touch-action:pan-x pan-y pinch-zoom;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+  #surface{position:relative;line-height:0;cursor:crosshair;min-height:1px}
+  #surface[aria-busy="true"]{cursor:wait}
+  #plan{width:100%;display:block;user-select:none;-webkit-user-select:none;-webkit-user-drag:none}
+  #pins{position:absolute;inset:0;pointer-events:none}
+  .pin{position:absolute;width:10px;height:10px;margin:-5px;background:#d71920;border:2px solid white;border-radius:50%;box-shadow:0 1px 4px #28236333}
+  .pin span{position:absolute;bottom:12px;left:4px;line-height:1.2;color:#c91622;border:1px solid #d71920;background:#fff;border-radius:5px;padding:4px 6px;font-weight:700;font-size:16px;white-space:nowrap;box-shadow:0 2px 7px #2823631a}
+  .pin.right span{left:auto;right:4px}.pin.top span{bottom:auto;top:12px}
+  #hint{display:flex;align-items:flex-start;gap:8px;margin:12px 2px 0;color:var(--muted);font-size:13px;line-height:1.5}
+  #hint::before{content:"i";flex:none;display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;margin-top:1px;border:1px solid #c7c5dc;border-radius:50%;font-size:11px;font-weight:700;color:var(--ink)}
+  @media(hover:hover){button:hover:not(:disabled){border-color:#b9b4d8;background:#f0eef9}}
+  @media(max-width:540px){.viewer{padding:10px;border-radius:14px}.toolbar{gap:10px}.title{width:100%;font-size:14px}.controls{width:100%;justify-content:flex-end}#fit{margin-right:auto}#hint{font-size:12px}}
+  @media(prefers-reduced-motion:reduce){button{transition:none}}
+</style>
+</head>
+<body>
+<div class="viewer" id="viewer">
+  <div class="toolbar">
+    <div class="title">Inspectietekening <span id="count">0 bevindingen</span></div>
+    <div class="controls" role="group" aria-label="Tekening vergroten of verkleinen">
+      <button id="fit" type="button">Passend maken</button>
+      <button id="out" class="zoom-button" type="button" aria-label="Uitzoomen">−</button>
+      <span id="zoom" aria-live="polite" aria-atomic="true">100%</span>
+      <button id="in" class="zoom-button" type="button" aria-label="Inzoomen">+</button>
+    </div>
+  </div>
+  <div id="viewport" tabindex="0" role="region" aria-label="Interactieve inspectietekening" aria-describedby="hint">
+    <div id="surface" aria-busy="false">
+      <img id="plan" alt="Inspectietekening; tik een plek aan om een bevinding toe te voegen" draggable="false">
+      <div id="pins"></div>
+    </div>
+  </div>
+  <p id="hint" role="status">Tik op een plek voor een nieuwe bevinding. Zoom in voor details; veeg om te verplaatsen.</p>
+</div>
+<script>
+const viewer=document.getElementById('viewer'),viewport=document.getElementById('viewport'),surface=document.getElementById('surface'),plan=document.getElementById('plan'),pins=document.getElementById('pins');
+const zoomIn=document.getElementById('in'),zoomOut=document.getElementById('out'),fit=document.getElementById('fit'),hint=document.getElementById('hint');
+const defaultHint='Tik op een plek voor een nieuwe bevinding. Zoom in voor details; veeg om te verplaatsen.';
+let args={},zoom=1,start=null,disabled=false,multi=false,pointers=new Set(),lastHeight=0,lastWidth=0,resizePending=false;
+const send=(type,data={})=>parent.postMessage({isStreamlitMessage:true,type,...data},'*');
+function updateControls(){
+  zoomIn.disabled=disabled||zoom>=5;
+  zoomOut.disabled=disabled||zoom<=1;
+  fit.disabled=disabled;
+  surface.setAttribute('aria-busy',String(disabled));
+}
+function resize(){
+  surface.style.width=(100*zoom)+'%';
+  document.getElementById('zoom').textContent=Math.round(zoom*100)+'%';
+  // Derive height from available width, never iframe height: that avoids a resize feedback loop.
+  const width=viewer.getBoundingClientRect().width;
+  viewer.style.setProperty('--viewer-height',Math.round(Math.min(560,Math.max(300,width*.68)))+'px');
+  const height=Math.ceil(viewer.getBoundingClientRect().height)+2;
+  if(height!==lastHeight){lastHeight=height;send('streamlit:setFrameHeight',{height});}
+  updateControls();
+}
+function scheduleResize(){
+  if(resizePending)return;
+  resizePending=true;
+  requestAnimationFrame(()=>{resizePending=false;resize();});
+}
+function changeZoom(value){if(disabled)return;zoom=Math.min(5,Math.max(1,value));resize();}
+zoomIn.onclick=()=>changeZoom(zoom+.5);
+zoomOut.onclick=()=>changeZoom(zoom-.5);
+fit.onclick=()=>{changeZoom(1);viewport.scrollTo(0,0);};
+window.addEventListener('resize',scheduleResize);
+if(typeof ResizeObserver!=='undefined')new ResizeObserver(entries=>{
+  const width=entries[0].contentRect.width;
+  if(width!==lastWidth){lastWidth=width;scheduleResize();}
+}).observe(viewer);
+plan.addEventListener('load',scheduleResize);
+window.addEventListener('message',event=>{
+  if(event.source!==parent||!event.data||event.data.type!=='streamlit:render')return;
+  const next=event.data.args;
+  if(!next)return;
+  if(args.drawing_id!==next.drawing_id){zoom=1;viewport.scrollTo(0,0);start=null;pointers.clear();multi=false;}
+  args=next;disabled=!!event.data.disabled;hint.textContent=defaultHint;
+  if(plan.src!==args.image)plan.src=args.image;
+  pins.replaceChildren();
+  for(const item of args.markers||[]){
+    const pin=document.createElement('div');
+    pin.className='pin'+(item.x>.85?' right':'')+(item.y<.08?' top':'');
+    pin.style.left=(100*item.x)+'%';pin.style.top=(100*item.y)+'%';
+    const label=document.createElement('span');label.textContent=item.label;
+    pin.append(label);pins.append(pin);
+  }
+  const count=(args.markers||[]).length;
+  document.getElementById('count').textContent=count+' '+(count===1?'bevinding':'bevindingen');
+  resize();
+});
+surface.addEventListener('pointerdown',e=>{
+  if(e.button!==0||disabled)return;
+  pointers.add(e.pointerId);
+  if(pointers.size>1)multi=true;
+  if(pointers.size===1){multi=false;start={id:e.pointerId,x:e.clientX,y:e.clientY,sx:viewport.scrollLeft,sy:viewport.scrollTop,time:Date.now(),moved:false};}
+});
+surface.addEventListener('pointermove',e=>{if(start&&e.pointerId===start.id&&Math.hypot(e.clientX-start.x,e.clientY-start.y)>10)start.moved=true;});
+surface.addEventListener('pointerup',e=>{
+  pointers.delete(e.pointerId);const tap=start;start=null;
+  if(!tap||multi||disabled||e.pointerId!==tap.id||tap.moved||Date.now()-tap.time>1200||Math.abs(viewport.scrollLeft-tap.sx)>5||Math.abs(viewport.scrollTop-tap.sy)>5||!plan.complete||!plan.naturalWidth)return;
+  const rect=plan.getBoundingClientRect(),x=(e.clientX-rect.left)/rect.width,y=(e.clientY-rect.top)/rect.height;
+  if(x<0||x>1||y<0||y>1)return;
+  disabled=true;hint.textContent='Bevinding openen…';updateControls();
+  send('streamlit:setComponentValue',{value:{drawing_id:args.drawing_id,x,y,event_id:Date.now()+'-'+Math.random()},dataType:'json'});
+});
+// A gesture can end outside the image, so clear its pointer state at window level too.
+window.addEventListener('pointerup',e=>{pointers.delete(e.pointerId);if(start&&e.pointerId===start.id)start=null;});
+window.addEventListener('pointercancel',e=>{pointers.delete(e.pointerId);start=null;});
+window.addEventListener('blur',()=>{pointers.clear();start=null;multi=false;});
+send('streamlit:componentReady',{apiVersion:1});resize();
+</script>
+</body>
+</html>

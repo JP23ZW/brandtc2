@@ -1,0 +1,786 @@
+[
+  {
+    "onderwerp": "Brandscheidingen kozijnen",
+    "gebrek": "Te veel draadglas toegepast in de brandscheiding.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Draadglas moet vervangen worden door aantoonbaar brandwerend glas met een WBDBO van ten minste … minuten.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen kozijnen",
+    "gebrek": "Draadglas aanwezig in de brandscheiding.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Conform het beleid van De Alliantie moet het draadglas vervangen worden.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen kozijnen",
+    "gebrek": "Naden rondom kozijn zijn niet afgedicht.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand.",
+    "maatregel": "Naden rondom het kozijn afdichten met brandwerend materiaal.",
+    "opmerking": "",
+    "richtlijn": "Conform Richtlijn brandwerendheid puiconstructies V1.0 11 februari 2021 paragraaf 7.8"
+  },
+  {
+    "onderwerp": "Brandscheidingen kozijnen",
+    "gebrek": "Het kozijn in de brandscheiding is niet voorzien van brandwerend glas.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Glas in het kozijn vervangen door aantoonbaar brandwerend glas met een WBDBO van ten minste 30 minuten.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen kozijnen",
+    "gebrek": "Zijlicht is niet voorzien van aantoonbaar brandwerend glas.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Zijlicht voorzien van aantoonbaar brandwerend glas met een WBDBO van 30 minuten.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen kozijnen",
+    "gebrek": "Zijlicht is niet voorzien van aantoonbaar brandwerend materiaal.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Zijlicht voorzien van aantoonbaar brandwerende onderdelen met een WBDBO van ten minste 30 minuten.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen kozijnen",
+    "gebrek": "Bovenlicht is niet voorzien van aantoonbaar brandwerend glas.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Bovenlicht voorzien van aantoonbaar brandwerend glas met een WBDBO van 30 minuten.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen kozijnen",
+    "gebrek": "Bovenlicht is niet voorzien van aantoonbaar brandwerend materiaal.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Bovenlicht voorzien van aantoonbaar brandwerende onderdelen met een WBDBO van ten minste 30 minuten.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen kozijnen",
+    "gebrek": "Onduidelijk of de glazen bouwstenen in de brandscheiding brandwerend zijn uitgevoerd.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Eigenaar moet aantonen of de glazen bouwstenen voldoen aan de gestelde eisen vanuit het Besluit bouwwerken leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen deuren",
+    "gebrek": "De deur in de brandscheiding is onvoldoende zelfsluitend.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving, bestaande bouw, Art. 3.123: Vluchten bij brand",
+    "maatregel": "Deurdranger(s) toepassen en onderhouden, zodat de deur(en) in de brandscheiding zelfsluitend is/zijn.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen deuren",
+    "gebrek": "De deur in de brandscheiding is onvoldoende zelfsluitend.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving, bestaande bouw, Art. 3.123: Vluchten bij brand",
+    "maatregel": "Deurdranger(s) herstellen en onderhouden, zodat de deur(en) in de brandscheiding zelfsluitend is/zijn.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen deuren",
+    "gebrek": "De deur in de brandscheiding is onvoldoende zelfsluitend.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving, bestaande bouw, Art. 3.123: Vluchten bij brand",
+    "maatregel": "Vrijloopdranger toepassen, onderhouden en voorzien van aansturing.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen deuren",
+    "gebrek": "De deur in de brandscheiding is onvoldoende zelfsluitend.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving, bestaande bouw, Art. 3.123: Vluchten bij brand",
+    "maatregel": "Dagschoot herstellen en onderhouden, zodat de deur(en) in de brandscheiding zelfsluitend is/zijn.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen deuren",
+    "gebrek": "De deur in de brandscheiding is onvoldoende zelfsluitend.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving, bestaande bouw, Art. 3.123: Vluchten bij brand",
+    "maatregel": "Constructie onderdeel aanpassen, zodat de deur voldoende zelfsluitend is.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen deuren",
+    "gebrek": "Deur in de brandscheiding heeft minder dan drie stalen scharnieren.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Extra stalen scharnier aanbrengen.",
+    "opmerking": "",
+    "richtlijn": "Getest conform Richtlijn brandwerendheid puiconstructies V1.0 11 februari 2021 paragraaf 8.2"
+  },
+  {
+    "onderwerp": "Brandscheidingen deuren",
+    "gebrek": "Deur in de brandscheiding niet voorzien van bij verhitting expanderende strips en sluitkracht deurdranger anders dan kracht 5.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Sluitkracht dranger aanpassen naar kracht 5 in combinatie met het toepassen van bij verhitting expanderende strips rondom de deur.",
+    "opmerking": "",
+    "richtlijn": "Getest conform Richtlijn brandwerendheid puiconstructies V1.0 11 februari 2021 paragraaf 8.3"
+  },
+  {
+    "onderwerp": "Brandscheidingen deuren",
+    "gebrek": "Deurdranger voldoet niet aan de juiste sluitkracht (sluitkracht 5).",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Sluitkracht dranger aanpassen (sluitkracht 5).",
+    "opmerking": "",
+    "richtlijn": "Getest conform Richtlijn brandwerendheid puiconstructies V1.0 11 februari 2021 paragraaf 8.3"
+  },
+  {
+    "onderwerp": "Brandscheidingen deuren",
+    "gebrek": "De naad aan de hang-, sluit- en bovenzijde is >3 mm.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Constructie onderdeel aanpassen, zodat de naden <3 mm zijn.",
+    "opmerking": "",
+    "richtlijn": "Getest conform Richtlijn brandwerendheid puiconstructies V1.0 11 februari 2021 paragraaf 7.7"
+  },
+  {
+    "onderwerp": "Brandscheidingen deuren",
+    "gebrek": "De naad aan de onderzijde van de deur is >6 mm.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Constructie onderdeel aanpassen, zodat de ondernaad <6 mm is.",
+    "opmerking": "",
+    "richtlijn": "Getest conform Richtlijn brandwerendheid puiconstructies V1.0 11 februari 2021 paragraaf 7.7"
+  },
+  {
+    "onderwerp": "Brandscheidingen deuren",
+    "gebrek": "De sponning van de toegepaste kozijnen in de brandscheiding is <25 mm. Hierdoor voldoen de kozijnen niet aan de gestelde brandwerendheidseisen.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Sponning aanpassen naar minimaal 25 mm, zodat de gestelde brandwerendheid wordt behaald.",
+    "opmerking": "",
+    "richtlijn": "Getest conform Richtlijn brandwerendheid puiconstructies V1.0 11 februari 2021 paragraaf 7.7"
+  },
+  {
+    "onderwerp": "Hardhout",
+    "gebrek": "De sponning van de toegepaste kozijnen in de brandscheiding is <17 mm. Hierdoor voldoen de kozijnen niet aan de gestelde brandwerendheidseisen.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Sponning aanpassen naar minimaal 25 mm, zodat de gestelde brandwerendheid wordt behaald.",
+    "opmerking": "Opmerking bijvoegen: Het advies is om de sponning op te dikken naar minimaal 25 mm.",
+    "richtlijn": "Getest conform Richtlijn brandwerendheid puiconstructies V1.0 11 februari 2021 paragraaf 7.7"
+  },
+  {
+    "onderwerp": "Dubbele deurconstructie > paragraaf 7.8",
+    "gebrek": "Deurnaald in de brandscheiding is onvoldoende toegepast.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Deurnaald vervangen welke voldoet aan een WBDBO van ten minste ... minuten.",
+    "opmerking": "",
+    "richtlijn": "Getest conform Richtlijn brandwerendheid puiconstructies V1.0 11 februari 2021 paragraaf 7.8"
+  },
+  {
+    "onderwerp": "Dubbele deurconstructie > paragraaf 7.9",
+    "gebrek": "Dubbele deurconstructie is niet voorzien van een deurnaald.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Deurnaald toepassen, zodat de naad <3 mm. is.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Dubbele deurconstructie > paragraaf 7.9",
+    "gebrek": "Onderlinge afstand van schroeven in glaslatten is >250 mm. h.o.h.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Extra schroeven aanbrengen, zodat de onderlinge afstand kleiner is dan 250 mm.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Dubbele deurconstructie > paragraaf 7.9",
+    "gebrek": "Glaslatten zijn gespijkerd.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Schroeven aanbrengen met een onderlinge afstand kleiner dan 250 mm.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Dubbele deurconstructie > paragraaf 7.9",
+    "gebrek": "De deur in de brandscheiding is niet voorzien van bij brand opschuimende strips.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Deur voorzien van bij brand opschuimende strips, zodat de gestelde brandwerendheid wordt behaald.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Dubbele deurconstructie > paragraaf 7.9",
+    "gebrek": "De deur in de brandscheiding is niet voorzien van aantoonbaar brandwerend glas.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Glas in de deur vervangen door aantoonbaar brandwerend glas met een WBDBO van ten minste … minuten.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Dubbele deurconstructie > paragraaf 7.9",
+    "gebrek": "Deur voldoet niet aan de gestelde brandwerendheidseisen.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Deur zonder kozijn vervangen door een brandwerende deur met een WBDBO van ten minste … minuten.",
+    "opmerking": "",
+    "richtlijn": "Getest conform Richtlijn brandwerendheid puiconstructies V1.0 11 februari 2021 Hoofdstuk 7"
+  },
+  {
+    "onderwerp": "Dubbele deurconstructie > paragraaf 7.9",
+    "gebrek": "Deur voldoet niet aan de gestelde brandwerendheidseisen.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Deur met kozijn vervangen door een brandwerende deur + hardhouten kozijn met een WBDBO van ten minste … minuten.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Dubbele deurconstructie > paragraaf 7.9",
+    "gebrek": "De stootplaat voldoet niet aan de gestelde brandwerendheidseisen",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Stootplaat vervangen door een aangepaste stootplaat die voldoet aan de brandwerendheidseisen.",
+    "opmerking": "",
+    "richtlijn": "Getest conform Richtlijn brandwerendheid puiconstructies V1.0 11 februari 2021 Hoofdstuk 7.10"
+  },
+  {
+    "onderwerp": "Brandscheidingen koven en doorvoeren",
+    "gebrek": "De koof t.p.v. … voldoet niet aan de gestelde WBDBO eis van ten minste … minuten.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Koof brandwerend afwerken, zodat een WBDBO van ten minste … minuten wordt gehaald.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandscheidingen koven en doorvoeren",
+    "gebrek": "Naden rondom schacht zijn niet afgedicht.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand.",
+    "maatregel": "Naden rondom schacht afdichten met brandwerend materiaal.",
+    "opmerking": "",
+    "richtlijn": "Conform Richtlijn brandwerendheid puiconstructies V1.0 11 februari 2021 paragraaf 7.8"
+  },
+  {
+    "onderwerp": "Brandscheidingen koven en doorvoeren",
+    "gebrek": "De schacht t.p.v. … voldoet niet aan de gestelde WBDBO eis van ten minste … minuten.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Schacht brandwerend afwerken, zodat een WBDBO van ten minste … minuten wordt gehaald.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Doorvoeren",
+    "gebrek": "De doorvoeren, welke de brandscheidingen doorbreken, zijn niet preventief brandwerend afgewerkt.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "De doorvoeren, welke de brandscheidingen doorbreken, preventief brandwerend afwerken, zodat een WBDBO van ten minste … minuten wordt gehaald.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Doorvoeren",
+    "gebrek": "De doorvoeren, welke de brandscheidingen doorbreken, zijn onvoldoende preventief brandwerend afgewerkt.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "De doorvoeren, welke de brandscheidingen doorbreken, preventief brandwerend afwerken, zodat een WBDBO van ten minste … minuten wordt gehaald.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Doorvoeren",
+    "gebrek": "De sparingen in de brandscheiding zijn niet preventief brandwerend afgewerkt.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "De sparingen in de brandscheiding preventief brandwerend afwerken, zodat een WBDBO van ten minste … minuten wordt gehaald.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Doorvoeren",
+    "gebrek": "Ventilatieventielen zijn niet aantoonbaar brandwerend.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Ventilatieventielen vervangen door opschuimende ventilatieventielen, zodat een WBDBO van ten minste … minuten wordt gehaald.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Doorvoeren",
+    "gebrek": "Ventilatieroosters zijn niet aantoonbaar brandwerend.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Ventilatierooster vervangen door een ventilatierooster van aantoonbaar brandwerend materiaal met een WBDBO van ten minste … minuten.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Doorvoeren",
+    "gebrek": "Ventilatiekanalen zijn niet aantoonbaar brandwerend.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Ventilatiekanalen voorzien van brandklep, zodat een WBDBO van ten minste … minuten wordt gehaald.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Doorvoeren",
+    "gebrek": "Wandcontactdoos is niet preventief brandwerend afgewerkt.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Wandcontactdoos voorzien van een puttypad.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Vluchtroutes",
+    "gebrek": "De deur in de vluchtroute is onvoldoende zelfsluitend.",
+    "artikel": "",
+    "maatregel": "Deurdranger(s) toepassen en onderhouden, zodat de deur(en) in de vluchtroute zelfsluitend is/zijn.",
+    "opmerking": "Is een overige bevinding. Geldt enkel voor deuren in de vluchtroute die niet in een brandscheiding liggen.",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Vluchtroutes",
+    "gebrek": "De deur in de vluchtroute is onvoldoende zelfsluitend.",
+    "artikel": "",
+    "maatregel": "Deurdranger(s) herstellen en onderhouden, zodat de deur(en) in de vluchtroute zelfsluitend is/zijn.",
+    "opmerking": "Is een overige bevinding. Geldt enkel voor deuren in de vluchtroute die niet in een brandscheiding liggen.",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Vluchtroutes",
+    "gebrek": "De deur in de vluchtroute is onvoldoende zelfsluitend.",
+    "artikel": "",
+    "maatregel": "Deurdranger(s) afstellen, zodat de deur(en) in de vluchtroute zelfsluitend is/zijn.",
+    "opmerking": "Is een overige bevinding. Geldt enkel voor deuren in de vluchtroute die niet in een brandscheiding liggen.",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Vluchtroutes",
+    "gebrek": "De deur in de vluchtroute is onvoldoende zelfsluitend.",
+    "artikel": "",
+    "maatregel": "Dagschoot herstellen en onderhouden, zodat de deur(en) in de vluchtroute zelfsluitend is/zijn.",
+    "opmerking": "Is een overige bevinding. Geldt enkel voor deuren in de vluchtroute die niet in een brandscheiding liggen.",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Vluchtroutes",
+    "gebrek": "De deur in de vluchtroute is onvoldoende zelfsluitend.",
+    "artikel": "",
+    "maatregel": "Slotplaat herstellen en onderhouden, zodat de deur(en) in de vluchtroute zelfsluitend is/zijn.",
+    "opmerking": "Is een overige bevinding. Geldt enkel voor deuren in de vluchtroute die niet in een brandscheiding liggen.",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Vluchtroutes",
+    "gebrek": "De deur in de vluchtroute is onvoldoende zelfsluitend.",
+    "artikel": "",
+    "maatregel": "Constructie onderdeel aanpassen, zodat de deur(en) in de vluchtroute zelfsluitend is/zijn.",
+    "opmerking": "Is een overige bevinding. Geldt enkel voor deuren in de vluchtroute die niet in een brandscheiding liggen.",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Vluchtroutes",
+    "gebrek": "Deur kan met gebruik van een sleutel worden gesloten.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.21: Veilig vluchten bij brand",
+    "maatregel": "Knopcilinder toepassen op de deur in de brandscheiding, zodat deze direct te openen is.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Er zijn losliggende tegels waargenomen in de vluchtroute dat het vluchten belemmerd.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.23a: Veilig vluchten bij brand",
+    "maatregel": "Begaanbaarheid vluchtweg herstellen.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Bewoners zijn veroordeeld tot eenzijdige ontvluchting zonder dat de voorgevel voldoet aan een WBDBO van ten minste ... minuten.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.19: Veilig vluchten bij brand",
+    "maatregel": "Tweede vluchtweg creëren om de veiligheid van de bewoners te kunnen waarborgen.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Bewoners zijn veroordeeld tot eenzijdige ontvluchting zonder dat de voorgevel voldoet aan een WBDBO van ten minste ... minuten.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.19: Veilig vluchten bij brand",
+    "maatregel": "Gevel brandwerend uitvoeren waarbij een WBDBO van ten minste .. minuten wordt gehaald.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Minimale breedte van 0,85 m in de vluchtroute wordt niet behaald.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.23a: Veilig vluchten bij brand",
+    "maatregel": "Bewoners informeren om geen objecten te plaatsen in de vluchtwegen en de objecten te verwijderen.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "In de vluchtweg zijn diverse objecten/obstakels waargenomen. Dit belemmert het vluchten en/of heeft een hogere variabele vuurlast tot gevolg.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.15a: Voorkomen van brandgevaar en ontwikkeling van brand; en Art. 6.23a: Veilig vluchten bij brand",
+    "maatregel": "Bewoners informeren om geen objecten te plaatsen in de vluchtwegen en de objecten te verwijderen.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "In de vluchtweg zijn diverse objecten/obstakels waargenomen. Dit belemmert het vluchten.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.23a: Veilig vluchten bij brand",
+    "maatregel": "Bewoners informeren om geen objecten te plaatsen in de vluchtwegen en de objecten te verwijderen.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "In de vluchtweg zijn diverse objecten/obstakels waargenomen. Dit heeft een hogere variabele vuurlast tot gevolg.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.15a: Voorkomen van brandgevaar en ontwikkeling van brand",
+    "maatregel": "Bewoners informeren om geen objecten te plaatsen in de vluchtwegen en de objecten te verwijderen.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Trap in de vluchtweg voldoet niet aan de gestelde eisen vanuit het Besluit bouwwerken leefomgeving.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.20: Afmetingen trap",
+    "maatregel": "Trap in de vluchtweg aanpassen, zodat deze voldoet aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Trap in de vluchtweg voldoet niet aan de gestelde eisen vanuit het Besluit bouwwerken leefomgeving. Hierdoor zijn bewoners veroordeeld tot een eenzijdige ontvluchting.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.20: Afmetingen trap",
+    "maatregel": "Tweede vluchtweg creëren welke voldoet aan de eisen vanuit het Besluit bouwwerken leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Trap in de vluchtweg voldoet niet aan de gestelde eisen vanuit het Besluit bouwwerken leefomgeving. Hierdoor zijn bewoners veroordeeld tot een eenzijdige ontvluchting.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.20: Afmetingen trap",
+    "maatregel": "Voorgevel brandwerend uitvoeren waarbij een WBDBO van ten minste .. minuten wordt gehaald.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Er is een hoogteverschil van meer dan 0,22 m waargenomen tussen vloeren waarover een vluchtroute voert.",
+    "artikel": "Conform Besluit Bouwwerken leefomgeving bestaande bouw, Art. 3.19: Voorziening bij hoogteverschil",
+    "maatregel": "Hoogteverschil overbruggen door een vaste trap of een vaste hellingbaan.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Hellingbaan voldoet niet aan de gestelde eisen van het Besluit Bouwwerken Leefomgeving.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.23: Afmetingen hellingbaan",
+    "maatregel": "Hellingbaan aanpassen, zodat deze voldoet aan de   gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Ten tijde van de inspectie stond er een scootmobiel gestald in de vluchtweg. Dit belemmert het vluchten en verhoogd het risico op een hoge variabele vuurlast.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.15a: Voorkomen van brandgevaar en ontwikkeling van brand; en Art. 6.23a: Veilig vluchten bij brand",
+    "maatregel": "Brandveilige scootmobielstalling realiseren en bewoners informeren om geen scootmobielen te stallen in de vluchtwegen en de objecten te verwijderen.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Ten tijde van de inspectie stond er een scootmobiel gestald in de vluchtweg. Dit belemmert het vluchten en verhoogd het risico op een hoge variabele vuurlast.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.15a: Voorkomen van brandgevaar en ontwikkeling van brand; en Art. 6.23a: Veilig vluchten bij brand",
+    "maatregel": "Situatie creëren waarbij de scootmobielen (brand)veilig gestald worden, zodat deze geen belemmering vormen voor het vluchten en het risico op een hoge variabele vuurlast wordt verlaagd.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Ten tijde van de inspectie stond er een scootmobiel gestald in de vluchtweg. Dit belemmert het vluchten en verhoogd het risico op een hoge variabele vuurlast.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.15a: Voorkomen van brandgevaar en ontwikkeling van brand; en Art. 6.23a: Veilig vluchten bij brand",
+    "maatregel": "Bewoners informeren om de scootmobielen te stallen in de woning i.p.v. de vluchtwegen.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Ten tijde van de inspectie zijn er oplaadpunten voor scootmobielen waargenomen in de vluchtweg.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.15a: Voorkomen van brandgevaar en ontwikkeling van brand",
+    "maatregel": "Oplaadpunten verwijderen en daarnaast bewoners informeren om geen scootmobielen te stallen in de vluchtwegen en de objecten te verwijderen.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Deur in de vluchtweg draait bij het openen tegen de vluchtrichting in.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.121 Vluchten bij brand",
+    "maatregel": "Draairichting van de deur in de vluchtweg aanpassen, zodat de deur bij het openen niet tegen de vluchtrichting in draait.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Aankleding: Vloerbedekking, gordijnen etc.",
+    "gebrek": "Zelfsluitend constructieonderdeel is in geopende stand vastgezet.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.13 Voorkomen van brandgevaar en ontwikkeling van brand",
+    "maatregel": "Bewoners informeren het zelfsluitende constructieonderdeel in de brandscheiding niet vast te zetten, zodat de deur te allen tijde sluit.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Installaties",
+    "gebrek": "Het is onduidelijk of de blusmiddelen één keer in de twee jaar worden gecontroleerd.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.35: Brandveiligheidsinstallaties",
+    "maatregel": "Blusmiddelen moeten worden onderhouden en voorzien van een keuringssticker.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Installaties",
+    "gebrek": "Blusmiddelen worden niet adequaat onderhouden.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 2.6 Algemene bepalingen; en Art. 6.35: Brandveiligheidsinstallaties",
+    "maatregel": "Blusmiddelen controleren, onderhouden en voorzien van een keuringssticker.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Installaties",
+    "gebrek": "Er zijn onvoldoende blusmiddelen aanwezig.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.127: Bestrijden van brand",
+    "maatregel": "Gebouw voorzien van voldoende draagbare blusmiddelen.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Installaties",
+    "gebrek": "Blusmiddel is niet duidelijk aangeduid.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.127: Bestrijden van brand",
+    "maatregel": "Blusmiddelen duidelijk zichtbaar plaatsen. Indien niet mogelijk, aanduiden met pictogrammen conform NEN-EN-ISO 7010.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Installaties",
+    "gebrek": "Er is geen brandmeldinstallatie in het woongebouw aanwezig.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.115 Tijdig vaststellen van brand",
+    "maatregel": "Woongebouw moet worden voorzien van een brandmeldinstallatie.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Installaties",
+    "gebrek": "De BMI heeft geen geldig inspectiecertificaat volgens het CCV inspectieschema brandbeveiliging.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.32 Brandveiligheidsinstallaties",
+    "maatregel": "BMI in nominale staat brengen en certificeren volgens CCV inspectieschema brandbeveiliging.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Installaties",
+    "gebrek": "De documenten van de BMI zijn onvolledig.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving gebruik, Art. 6.32 Brandveiligheidsinstallaties",
+    "maatregel": "Vereiste documenten aanvragen, zodat aangetoond kan worden dat de BMI aan de eisen van het Besluit Bouwwerken Leefomgeving voldoet.",
+    "opmerking": "Opmerking bijvoegen welke documenten ontbreken.",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Installaties",
+    "gebrek": "Nood- en vluchtwegverlichting is niet voorzien van een keuringssticker.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 2.6 Algemene bepalingen; en Art. 3.120 Vluchten bij brand",
+    "maatregel": "Verlichting controleren, onderhouden en voorzien van een keuringssticker.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Installaties",
+    "gebrek": "Nood- en vluchtwegverlichting wordt niet adequaat onderhouden.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 2.6 Algemene bepalingen; en Art. 3.120 Vluchten bij brand",
+    "maatregel": "Verlichting controleren, onderhouden en voorzien van een keuringssticker.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Installaties",
+    "gebrek": "In het gebouw is er geen nood- of vluchtwegverlichting aanwezig.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.101 Noodverlichting",
+    "maatregel": "Nood- en vluchtwegverlichting aanbrengen in de gebouwen op de vereiste plekken.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Installaties",
+    "gebrek": "Verlichting functioneert niet overeenkomstig de op die installatie van toepassing zijnde voorschriften.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving, Art. 2.6 specifieke zorgplicht: bouwwerkinstallatie",
+    "maatregel": "Verlichting herstellen. Daarna adequaat beheren, onderhouden en controleren waarbij de verlichting van een keuringssticker wordt voorzien.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Installaties",
+    "gebrek": "Er zijn in het gebouw geen duidelijk waarneembare vluchtrouteaanduidingen aangebracht.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.120 Vluchten bij brand",
+    "maatregel": "Vluchtrouteaanduidingen aanbrengen conform de zichtbaarheidseisen van NEN-EN 1838.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Installaties",
+    "gebrek": "Niet iedere bouwlaag met een verblijfsruimte of met een besloten ruimte waardoor een vluchtroute voert tussen de uitgang van een verblijfsruimte en de uitgang van de woonfunctie is voorzien van een rookmelder.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.117: Tijdig vaststellen van brand",
+    "maatregel": "Inventariseren hoeveel rookmelders er geplaatst moeten worden en de rookmelders plaatsen.",
+    "opmerking": "Opmerking bijvoegen dat een rookmelder geplaatst moet worden in de woning waar deze ontbreekt (huisnummer benoemen).",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Kamergewijze verhuur",
+    "gebrek": "Niet iedere bouwlaag met een besloten ruimte waardoor een vluchtroute voert tussen de uitgang van een verblijfsruimte en de uitgang van de woonfunctie is voorzien van een rookmelder.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.117: Tijdig vaststellen van brand",
+    "maatregel": "Rookmelders plaatsen.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Kamergewijze verhuur",
+    "gebrek": "Niet iedere verblijfsruimte is voorzien van een rookmelder en voldoet niet als een afzonderlijk beschermd subbrandcompartiment met een WBDBO van ten minste 30 minuten.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.117: Tijdig vaststellen van brand",
+    "maatregel": "Rookmelders plaatsen.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Kamergewijze verhuur",
+    "gebrek": "Enkele bouwlagen met een verblijfsruimte of met een besloten ruimte waardoor een vluchtroute voert tussen de uitgang van een verblijfsruimte en de uitgang van de woonfunctie bevatten gedemonteerde rookmelders.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.117: Tijdig vaststellen van brand",
+    "maatregel": "Bewoners informeren de rookmelders niet te demonteren en de rookmelders terug te plaatsen.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandweeringang",
+    "gebrek": "De brandweeringang is niet aangegeven.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.129: brandweeringang",
+    "maatregel": "Brandweeringang aangeven d.m.v. een pictogram conform NEN-EN-ISO 7010.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandweeringang",
+    "gebrek": "Bereikbaarheid van het bouwwerk voor de hulpdiensten is matig.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.128: Toegankelijkheid voor hulpverleningsdiensten",
+    "maatregel": "Bereikbaarheid van het gebouw toegankelijk maken.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Brandweeringang",
+    "gebrek": "Er zijn geen goede opstelplaatsen voor de brandweervoertuigen aanwezig.",
+    "artikel": "Conform bouwbesluit 2012 bestaande bouw, Art. 6.38 bereikbaarheid voor hulpverleningsdiensten",
+    "maatregel": "Opstelplaatsen voor brandweervoertuigen creëren.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Constructieonderdelen",
+    "gebrek": "Trap heeft een te hoge bijdrage tot brandvoortplanting.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.33: Beperking van het ontwikkelen van brand en rook",
+    "maatregel": "Constructieonderdeel aanpassen, zodat er wordt voldaan aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Constructieonderdelen",
+    "gebrek": "Trap heeft mogelijk een te hoge bijdrage tot brandvoortplanting.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.33: Beperking van het ontwikkelen van brand en rook",
+    "maatregel": "Eigenaar moet aantonen of het constructieonderdeel voldoet aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Constructieonderdelen",
+    "gebrek": "Wandconstructie voldoet mogelijk niet aan de gestelde brandklasse (en rookdichtheid)",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.31: Beperking van het ontwikkelen van brand en rook",
+    "maatregel": "Eigenaar moet aantonen of het constructieonderdeel voldoet aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Constructieonderdelen",
+    "gebrek": "Wandconstructie voldoet niet aan de gestelde brandklasse (en rookdichtheid)",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.31: Beperking van het ontwikkelen van brand en rook",
+    "maatregel": "Constructieonderdeel aanpassen, zodat er wordt voldaan aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Constructieonderdelen",
+    "gebrek": "Vloerbedekking levert mogelijk brandgevaar op en heeft mogelijk een te hoge bijdrage tot brandvoortplanting.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.33: Beperking van het ontwikkelen van brand en rook",
+    "maatregel": "Eigenaar moet aantonen of het constructieonderdeel voldoet aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Constructieonderdelen",
+    "gebrek": "Vloer heeft een te hoge bijdrage tot brandvoortplanting.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.33: Beperking van het ontwikkelen van brand en rook",
+    "maatregel": "Constructieonderdeel aanpassen, zodat er wordt voldaan aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Constructieonderdelen",
+    "gebrek": "Vloer heeft mogelijk een te hoge bijdrage tot brandvoortplanting.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.33: Beperking van het ontwikkelen van brand en rook",
+    "maatregel": "Eigenaar moet aantonen of het constructieonderdeel voldoet aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Constructieonderdelen",
+    "gebrek": "Plafond voldoet niet aan de gestelde brandklasse (en rookdichtheid).",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.31: Beperking van het ontwikkelen van brand en rook",
+    "maatregel": "Constructieonderdeel aanpassen, zodat er wordt voldaan aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Constructieonderdelen",
+    "gebrek": "Plafond voldoet mogelijk niet aan de gestelde brandklasse (en rookdichtheid).",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.31: Beperking van het ontwikkelen van brand en rook",
+    "maatregel": "Eigenaar moet aantonen of het constructieonderdeel voldoet aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Constructieonderdelen",
+    "gebrek": "Gevel voldoet mogelijk niet aan de gestelde brandklasse (en rookdichtheid).",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.32: Beperking van het ontwikkelen van brand en rook",
+    "maatregel": "Constructieonderdeel aanpassen, zodat er wordt voldaan aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Constructieonderdelen",
+    "gebrek": "Gevel voldoet mogelijk niet aan de gestelde brandklasse (en rookdichtheid).",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.32: Beperking van het ontwikkelen van brand en rook",
+    "maatregel": "Eigenaar moet aantonen of het constructieonderdeel voldoet aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Constructieonderdelen",
+    "gebrek": "Dakconstructie voldoet mogelijk niet aan de gestelde brandwerendheidseisen.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.31: Beperking van het ontwikkelen van brand en rook",
+    "maatregel": "Dakconstructie moet gecontroleerd worden tijdens het groot onderhoud.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Compartimentering",
+    "gebrek": "Brandscheidingen voldoen niet aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Brandscheidingen brandwerend uitvoeren, zodat een WBDBO van ten minste ... minuten wordt gehaald.",
+    "opmerking": "",
+    "richtlijn": ""
+  },
+  {
+    "onderwerp": "Compartimentering",
+    "gebrek": "Brandscheiding voldoet niet aan de gestelde eisen vanuit het Besluit Bouwwerken Leefomgeving.",
+    "artikel": "Conform Besluit Bouwwerken Leefomgeving bestaande bouw, Art. 3.36: Beperking van uitbreiding van brand",
+    "maatregel": "Wand in de brandscheiding dichtzetten, zodat een WBDBO van ten minste … minuten wordt gehaald.",
+    "opmerking": "",
+    "richtlijn": ""
+  }
+]

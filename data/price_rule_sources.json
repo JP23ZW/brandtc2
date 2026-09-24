@@ -1,0 +1,430 @@
+{
+  "1": {
+    "description": "Draadglas vervangen voor aantoonbaar 30  min. WBDBO.",
+    "unit": "m2"
+  },
+  "2": {
+    "description": "Draadglas vervangen voor aantoonbaar 60  min. WBDBO.",
+    "unit": "m2"
+  },
+  "3": {
+    "description": "Glas vervangen voor brandwerend glas met een WBDBO 30 min.",
+    "unit": "m2"
+  },
+  "4": {
+    "description": "Glas vervangen voor brandwerend glas met een WBDBO 60 min.",
+    "unit": "m2"
+  },
+  "5": {
+    "description": "Promatecplaat toepassen in kozijn",
+    "unit": "m2"
+  },
+  "6": {
+    "description": "Mechanische deurdranger toepassen",
+    "unit": "st"
+  },
+  "7": {
+    "description": "Deurdranger vervangen.",
+    "unit": "st"
+  },
+  "8": {
+    "description": "Deurdranger met sensor toepassen.",
+    "unit": "st"
+  },
+  "9": {
+    "description": "Deurdranger met sleutelschakelaar toepassen.",
+    "unit": "st"
+  },
+  "10": {
+    "description": "Deurdranger met knop toepassen.",
+    "unit": "st"
+  },
+  "11": {
+    "description": "Sluitkracht dranger aanpassen.",
+    "unit": "st"
+  },
+  "12": {
+    "description": "Vrijloopdranger toepassen.",
+    "unit": "st"
+  },
+  "13": {
+    "description": "Vrijloopdranger aansturing (via de BMI)",
+    "unit": "st"
+  },
+  "14": {
+    "description": "Vrijloopdranger aansturing (RF rookmelder incl. schakeling)",
+    "unit": "st"
+  },
+  "15": {
+    "description": "Vrijloopdranger controleren, onderhouden en voorzien van een keuringssticker",
+    "unit": "st"
+  },
+  "16": {
+    "description": "Elektrische deurdranger toepassen",
+    "unit": "st"
+  },
+  "17": {
+    "description": "Automatische schuifdeur onderhouden en voorzien van een keuringssticker.",
+    "unit": "st"
+  },
+  "18": {
+    "description": "Deur afhangen zodat de naden <3 mm. zijn.",
+    "unit": "st"
+  },
+  "19": {
+    "description": "Deur verlengen zodat de naad <6 mm. is.",
+    "unit": "st"
+  },
+  "20": {
+    "description": "Deur voorzien van bij brand opschuimende strips zodat de gestelde brandwerendheidseis wordt behaald.",
+    "unit": "st"
+  },
+  "21": {
+    "description": "Sponning aanpassen naar >25 mm. zodat de gestelde brandwerendheidseis wordt behaald.",
+    "unit": "st"
+  },
+  "22": {
+    "description": "Brandwerende deurnaald vervangen",
+    "unit": "st"
+  },
+  "23": {
+    "description": "Vervangen/toepassen schopplaat",
+    "unit": "st"
+  },
+  "24": {
+    "description": "Glaslatten vervangen zodat de onderlinge afstand van schroeven <250 mm. is.",
+    "unit": "m1"
+  },
+  "25": {
+    "description": "Glaslatten vervangen zodat de onderlinge afstand van spijkers <100 mm. is.",
+    "unit": "m1"
+  },
+  "26": {
+    "description": "Dichte deur vervangen door schilderdeur deur.",
+    "unit": "st"
+  },
+  "27": {
+    "description": "Dichte deur vervangen door HPL deur.",
+    "unit": "st"
+  },
+  "28": {
+    "description": "Deur met glasopening vervangen",
+    "unit": "st"
+  },
+  "29": {
+    "description": "Deur- en kozijn vervangen door schilderdeur en hardhouten kozijn",
+    "unit": "st"
+  },
+  "30": {
+    "description": "Deur- en kozijn vervangen door HPL deur + hardhouten kozijn.",
+    "unit": "st"
+  },
+  "31": {
+    "description": "Deur met glasopening- en kozijn vervangen",
+    "unit": "st"
+  },
+  "32": {
+    "description": "Deur- en kozijn vervangen door extra brede deur.",
+    "unit": "st"
+  },
+  "33": {
+    "description": "Vervangen woningstoegangsdeuren",
+    "unit": "st"
+  },
+  "34": {
+    "description": "De koof 60 min. brandwerend afwerken zodat de kans op branddoorslag naar de omliggende ruimtes wordt beperkt.",
+    "unit": "m2"
+  },
+  "35": {
+    "description": "De koof 30 min. brandwerend afwerken zodat de kans op branddoorslag naar de omliggende ruimtes wordt beperkt.",
+    "unit": "m2"
+  },
+  "36": {
+    "description": "De schacht 60 min. brandwerend afwerken zodat de kans op branddoorslag naar de omliggende ruimtes wordt beperkt.",
+    "unit": "m2"
+  },
+  "37": {
+    "description": "De schacht 30 min. brandwerend afwerken zodat de kans op branddoorslag naar de omliggende ruimtes wordt beperkt.",
+    "unit": "m2"
+  },
+  "38": {
+    "description": "De doorvoeren die de brandscheiding doorbreken preventief brandwerend afwerken (VWA + Hyg.kap)",
+    "unit": "st"
+  },
+  "39": {
+    "description": "De doorvoeren die de brandscheiding doorbreken preventief brandwerend afwerken (RGA)",
+    "unit": "st"
+  },
+  "40": {
+    "description": "De doorvoeren die de brandscheiding doorbreken preventief brandwerend afwerken. (meterkast)",
+    "unit": "st"
+  },
+  "41": {
+    "description": "De doorvoeren die de brandscheiding doorbreken preventief brandwerend afwerken (< 22mm.)",
+    "unit": "st"
+  },
+  "42": {
+    "description": "De doorvoeren die de brandscheiding doorbreken preventief brandwerend afwerken (> 22mm.)",
+    "unit": "st"
+  },
+  "43": {
+    "description": "De doorvoeren die de brandscheiding doorbreken preventief brandwerend afwerken (verwarmingsbuizen)",
+    "unit": "st"
+  },
+  "44": {
+    "description": "Ventilatiekanalen voorzien van brandkleppen waardoor het risico op brandoverslag naar overige ruimten wordt beperkt.  (125 mm)",
+    "unit": "st"
+  },
+  "45": {
+    "description": "Ventilatiekanalen voorzien van brandkleppen waardoor het risico op brandoverslag naar overige ruimten wordt beperkt. (250 mm)",
+    "unit": "st"
+  },
+  "46": {
+    "description": "Ventilatiekanalen voorzien van brandkleppen waardoor het risico op brandoverslag naar overige ruimten wordt beperkt.  (315 mm)",
+    "unit": "st"
+  },
+  "47": {
+    "description": "Ventilatiekanalen voorzien van brandkleppen waardoor het risico op brandoverslag naar overige ruimten wordt beperkt.  (400 mm)",
+    "unit": "st"
+  },
+  "48": {
+    "description": "Ventilatiekanalen voorzien van brandkleppen waardoor het risico op brandoverslag naar overige ruimten wordt beperkt. (500 mm)",
+    "unit": "st"
+  },
+  "49": {
+    "description": "Brandwerend ventilatierooster plaatsen",
+    "unit": "st"
+  },
+  "50": {
+    "description": "Brandwerend ventilatieventiel plaatsen",
+    "unit": "st"
+  },
+  "51": {
+    "description": "De tegels herstellen zodat er veilig gevlucht kan worden.",
+    "unit": ""
+  },
+  "52": {
+    "description": "Bewoners informeren om geen objecten te plaatsen in de vluchtwegen en de objecten te verwijderen.",
+    "unit": ""
+  },
+  "53": {
+    "description": "Vluchttrap vervangen zodat de gestelde brandwerendheidseisen behaald worden.",
+    "unit": "st/verdieping"
+  },
+  "54": {
+    "description": "Hellingbaan zodanig aanpassen dat de gestelde brandwerendheidseisen worden behaald.",
+    "unit": "st"
+  },
+  "55": {
+    "description": "Draairichting van de deur in de vluchtroute aanpassen zodat de deur bij het openen niet tegen de vluchtrichting in draait.",
+    "unit": "st"
+  },
+  "56": {
+    "description": "Bewoners informeren het zelfsluitende constructieonderdeel niet vast te zetten.",
+    "unit": ""
+  },
+  "57": {
+    "description": "Trapleuning toepassen",
+    "unit": "m1"
+  },
+  "58": {
+    "description": "Bewoners informeren om geen scootmobielen in de vluchtweg te stallen.",
+    "unit": ""
+  },
+  "59": {
+    "description": "Nieuwe scootmobielruimte realiseren (afhankelijk van de situatie)",
+    "unit": "st"
+  },
+  "60": {
+    "description": "Oplaadpunt scootmobielen verwijderen",
+    "unit": "st"
+  },
+  "61": {
+    "description": "Blusmiddelen onderhouden en voorzien van een keuringssticker.",
+    "unit": "post"
+  },
+  "62": {
+    "description": "Gebouw voorzien van voldoende blusmiddelen.",
+    "unit": "st"
+  },
+  "63": {
+    "description": "Blusmiddel duidelijk zichtbaar ophangen of aanduiden met pictogrammen.",
+    "unit": "st"
+  },
+  "64": {
+    "description": "BMI (indien nodig) in nominale staat brengen en certificeren volgens CCV inspectieschema brandbeveiliging.",
+    "unit": "st"
+  },
+  "65": {
+    "description": "Nevenindicator verplaatsen",
+    "unit": "st"
+  },
+  "66": {
+    "description": "Documenten aanvragen zodat aangetoond kan worden dat de BMI aan de eisen van het Besluit bouwwerken leefomgeving voldoet.",
+    "unit": "st"
+  },
+  "67": {
+    "description": "Ontruimingsplan maken",
+    "unit": "st"
+  },
+  "68": {
+    "description": "Logboek aanleveren",
+    "unit": "st"
+  },
+  "69": {
+    "description": "Verlichting onderhouden en voorzien van een keuringssticker.",
+    "unit": "post"
+  },
+  "70": {
+    "description": "Nood- en vluchtwegverlichting aanbrengen in de gebouwen.",
+    "unit": "st"
+  },
+  "71": {
+    "description": "Vluchtrouteaanduidingen op duidelijk waarneembare plekken aanbrengen.",
+    "unit": "st"
+  },
+  "72": {
+    "description": "Vluchtrouteaanduidingen verwijderen",
+    "unit": "st"
+  },
+  "73": {
+    "description": "Nood- en vluchtwegverlichting controleren, onderhouden en voorzien van een keuringssticker",
+    "unit": ""
+  },
+  "74": {
+    "description": "Brandweeringang aangeven d.m.v. een pictogram.",
+    "unit": ""
+  },
+  "75": {
+    "description": "Groene ontruimingsknop plaatsen",
+    "unit": "st"
+  },
+  "76": {
+    "description": "Inspectie uitvoeren om te inventariseren hoeveel rookmelders er geplaatst moeten worden.",
+    "unit": "st"
+  },
+  "77": {
+    "description": "Rookmelder plaatsen EI650I",
+    "unit": "st"
+  },
+  "78": {
+    "description": "Rookmelder plaatsen (koppelbaar) EI650I",
+    "unit": "st"
+  },
+  "79": {
+    "description": "Rookmelders verplaatsen",
+    "unit": "st"
+  },
+  "80": {
+    "description": "De bewoners informeren de rookmelders op te hangen en aan te sluiten.",
+    "unit": ""
+  },
+  "81": {
+    "description": "Slot herstellen",
+    "unit": "st"
+  },
+  "82": {
+    "description": "Dagschoot herstellen",
+    "unit": "st"
+  },
+  "83": {
+    "description": "Anti-inbraakplaat",
+    "unit": "st"
+  },
+  "84": {
+    "description": "Deur hekwerk verwijderen",
+    "unit": "st"
+  },
+  "85": {
+    "description": "Meerpuntssluiting herstellen",
+    "unit": "st"
+  },
+  "86": {
+    "description": "Knopcilinder toepassen.",
+    "unit": "st"
+  },
+  "87": {
+    "description": "Brandoverslag berekening uitvoeren.",
+    "unit": "post"
+  },
+  "88": {
+    "description": "Nader onderzoek uitvoeren.",
+    "unit": "post"
+  },
+  "89": {
+    "description": "Vlamscherm plaatsen",
+    "unit": "m2"
+  },
+  "90": {
+    "description": "Dakconstructie preventief brandwerend afwerken/onderbreken",
+    "unit": "m2"
+  },
+  "91": {
+    "description": "Naden dichtkitten",
+    "unit": "m1"
+  },
+  "92": {
+    "description": "Vloerelementen reinigen",
+    "unit": "m2"
+  },
+  "93": {
+    "description": "Verdieping nummering aanbrengen",
+    "unit": "st"
+  },
+  "94": {
+    "description": "Waarschuwingsborden wegens struikelgevaar plaatsen",
+    "unit": "st"
+  },
+  "95": {
+    "description": "Windhaak verwijderen",
+    "unit": "st"
+  },
+  "96": {
+    "description": "Sparing afdichten",
+    "unit": "st"
+  },
+  "97": {
+    "description": "Brievenbus deur vervangen",
+    "unit": "st"
+  },
+  "98": {
+    "description": "Schilderen paneel",
+    "unit": "m2"
+  },
+  "99": {
+    "description": "Applicatiestickers aanbrengen",
+    "unit": "pw"
+  },
+  "100": {
+    "description": "Putty pad",
+    "unit": "st"
+  },
+  "101": {
+    "description": "Aantonen of het constructieonderdeel voldoet aan de gestelde eisen vanuit het Besluit bouwwerken leefomgeving.",
+    "unit": ""
+  },
+  "102": {
+    "description": "Kleefmagneet herstellen",
+    "unit": "st"
+  },
+  "103": {
+    "description": "Melding brandveilig gebruik aanleveren",
+    "unit": ""
+  },
+  "104": {
+    "description": "Deurdranger herstellen",
+    "unit": "st"
+  },
+  "105": {
+    "description": "Afscheiding cre\u00ebren",
+    "unit": "st"
+  },
+  "106": {
+    "description": "Ontruimingsplattegrond maken",
+    "unit": "st"
+  },
+  "107": {
+    "description": "Wandconstructie vervangen",
+    "unit": "m2"
+  }
+}
