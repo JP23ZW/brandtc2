@@ -252,8 +252,12 @@ def render_auth_page() -> None:
                 if user is None:
                     st.error("Inloggen niet gelukt. Controleer je gegevens en accountgoedkeuring. Na meerdere pogingen wordt inloggen tijdelijk geblokkeerd.")
                 else:
+                    # A successful login starts a fresh session, even when an
+                    # old login page still carries a previous activity time.
+                    st.session_state.clear()
                     st.session_state["user_id"] = int(user["id"])
                     st.session_state['auth_session_version'] = user['session_version']
+                    st.session_state['auth_last_activity'] = time.time()
                     set_flash(f"Welkom {user['name']}.")
                     st.rerun()
     with register_tab:
@@ -300,7 +304,7 @@ def render_account_controls(user: dict) -> None:
     st.markdown(f"**{user['name']}**")
     st.caption(user["email"])
     st.caption(ROLES[user['role']])
-    with st.expander("Account en wachtwoord"):
+    with st.expander("Account en wachtwoord", expanded=bool(user['must_change_password'])):
         with st.form("change_password_form"):
             current = st.text_input("Huidig wachtwoord", type="password")
             new = st.text_input("Nieuw wachtwoord", type="password")

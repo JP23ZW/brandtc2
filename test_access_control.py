@@ -52,6 +52,13 @@ class AccessTests(unittest.TestCase):
         storage.init_db()
         self.assertEqual(storage.get_user(self.root_id)['role'], 'superadmin')
 
+    def test_cloud_bootstrap_reads_streamlit_secret(self):
+        with patch.dict(user_admin.os.environ, {}, clear=True), \
+             patch('streamlit.secrets', {'BRANDVEILIGHEID_BOOTSTRAP_PASSWORD': 'Cloud-test-password!'}), \
+             patch.object(user_admin, 'bootstrap_admin') as bootstrap:
+            user_admin.bootstrap_from_environment()
+            bootstrap.assert_called_once_with('Cloud-test-password!')
+
     def test_no_auth_and_project_id_tampering(self):
         set_actor()
         for fn in [storage.list_projects, lambda: storage.load_report(self.rid), storage.create_database_backup]:
@@ -178,6 +185,37 @@ class AccessTests(unittest.TestCase):
         reader.run()
         self.assertFalse(reader.exception)
         self.assertTrue(any(b.label == 'Inloggen' for b in reader.button))
+
+    def test_ui_first_login_password_change_and_relogin(self):
+        with storage.connect() as con:
+            con.execute('UPDATE users SET must_change_password=1 WHERE id=?', (self.root_id,))
+        at = AppTest.from_file(str(Path(__file__).parent / 'app.py'), default_timeout=20).run()
+        def input_value(label, value):
+            next(w for w in at.text_input if w.label == label).set_value(value)
+        def click(label):
+            next(b for b in at.button if b.label == label).click().run()
+            self.assertFalse(at.exception)
+        input_value('E-mailadres', user_admin.ROOT_EMAIL)
+        input_value('Wachtwoord', 'Changed-test-password!')
+        click('Inloggen')
+        self.assertTrue(any('tijdelijke wachtwoord' in w.value for w in at.warning))
+        input_value('Huidig wachtwoord', 'Changed-test-password!')
+        input_value('Nieuw wachtwoord', 'New-login-password!')
+        input_value('Nieuw wachtwoord bevestigen', 'New-login-password!')
+        click('Wachtwoord wijzigen')
+        input_value('E-mailadres', user_admin.ROOT_EMAIL)
+        input_value('Wachtwoord', 'New-login-password!')
+        click('Inloggen')
+        self.assertTrue(any('Beheer' in r.options for r in at.radio))
+
+    def test_login_after_waiting_on_login_screen(self):
+        at = AppTest.from_file(str(Path(__file__).parent / 'app.py'), default_timeout=20).run()
+        at.session_state['auth_last_activity'] = 1.0
+        next(w for w in at.text_input if w.label == 'E-mailadres').set_value(user_admin.ROOT_EMAIL)
+        next(w for w in at.text_input if w.label == 'Wachtwoord').set_value('Changed-test-password!')
+        next(b for b in at.button if b.label == 'Inloggen').click().run()
+        self.assertFalse(at.exception)
+        self.assertTrue(any('Beheer' in r.options for r in at.radio))
 
 
 if __name__ == '__main__':
